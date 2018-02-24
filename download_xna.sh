@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # XNA
+mkdir -p bin/XNA
 wget "https://github.com/DDReaper/XNAGameStudio/raw/master/MXA%20Studio/XNA%20Game%20Studio%204.0.6%20(2017).zip" -O XNA.zip
 unzip XNA.zip -d tmpXNA
 cd tmpXNA/"2. XNA Framework 4.0 Redistribution"
